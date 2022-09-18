@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    float pi = 3.14;
+    double pi = 3.1415926535897931159979635;
     float alpha;
     float z1;
     float z2;
