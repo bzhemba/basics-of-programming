@@ -1,11 +1,10 @@
 #include <stdio.h>
-
+char *st[];
 int main() {
-    char st[20]; 
     int n;
-    scanf("%s", &st); 
-    scanf("%d", &n); 
-    printf("%s\n", st); 
-    printf("%d", n); 
+    scanf("%s", &st); //считываем строку
+    scanf("%d", &n); //считываем целое число
+    printf("%s\n", st); //вывод строки
+    printf("%d", n); //вывод числа
     return 0;
 }
