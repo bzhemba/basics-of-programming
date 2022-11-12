@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 struct MP3player{
-    unsigned playback: 1;
-    unsigned pause: 1;
-    unsigned recording: 1;
+    u_int8_t playback: 1;
+    u_int8_t pause: 1;
+    u_int8_t recording: 1;
 };
 union Byte{
     unsigned int value;
