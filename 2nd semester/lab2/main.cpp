@@ -11,10 +11,10 @@ int main() {
     cin >> nameoffile;
     file->open(nameoffile);
     cout << file->isOpen();
-    char *str = "Hello world!";
+    string s = "Hello world!";
     int num = 5;
     float n = 1.45;
-    file->writingstr(str);
+    file->writingstr(s);
     file->writingint(num);
     file->writingf(n);
 }
